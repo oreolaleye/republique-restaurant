@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.home{
+    background-image: url("https://www.dineout.co.in/blog/wp-content/uploads/2018/08/Pan_Asian_Delight_blogbanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+}
+.home-div{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.menu-icon{
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+.text-div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.logo{
+    margin-bottom: -250px;
+    width: 550px;
+}
+.btn-div{
+    margin-left: 0;
+}
+.btn{
+    background-color: transparent;
+    border: 1px solid #ed9121;
+    border-radius: 14px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px 35px;
+    margin-top: 300px;
+    margin-left: 20px;
+}
+ .btn:hover{
+    background-color: rgba(92.9%, 56.9%, 12.9%, 0.7);
+    cursor: pointer;
+}
+
+
+.close-icon{
+    position: absolute;
+    right: 10px;
+    width: 40px;
+}
+
+@media only screen and (max-width: 780px) {
+    .screen-menu{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .text-div{
+        padding-top: 50px;
+        justify-content: center; 
+    }
+    
+}
+@media only screen and (max-width: 500px) {
+    .logo{
+        width: 300px;
+    }
+    
+}

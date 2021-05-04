@@ -1,0 +1,34 @@
+.links{
+    position: absolute;
+    top: 280px;
+    right: 15px;
+}
+.links  li{
+    list-style: none;
+    margin-top: 15px;
+}
+.links li a{
+    color: white;
+    text-decoration: none;
+}
+.socials:hover{
+    color: rgba(92.9%, 56.9%, 12.9%, 0.9);
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#lower{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+#lower ul{
+    display: flex;
+}
+#lower li{
+    list-style: none;
+    margin-right: 20px;
+}
+#lower li a{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,37 @@
+.screen-menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mobile-menu{
+    background-color: black;
+    padding-top: 50px;
+    position: absolute;
+    height: 100%;
+    z-index: 100;
+}
+.screen-menu li, .mobile-menu li{
+    font-family: 'Pacifico', cursive;
+    font-size: 18px;
+    list-style-type: none;
+    padding-top: 30px;
+    padding-right: 80px;
+    padding-left: 50px;
+}
+.screen-menu li a, 
+.mobile-menu li a{
+    text-decoration: none;
+}
+.screen-menu li a{
+    color: #737373;
+}
+.screen-menu li a:hover{
+    color: #d9d9d9;
+}
+.mobile-menu li a{
+    color: #d9d9d9;
+}
+#clicked{
+    border-bottom: 1px solid #ed9121;
+    color: #d9d9d9;
+}
